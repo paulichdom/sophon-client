@@ -1,0 +1,31 @@
+.header {
+  position: sticky;
+  top: 0px;
+  background-color: white;
+  color: black;
+  border-bottom: 1px solid;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 24px 0px 18px;
+}
+
+.ul {
+  margin-left: auto;
+  list-style-type: none;
+  display: flex;
+  padding: 0;
+  align-items: center;
+  gap: 32px;
+  padding-top: 10px;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+}
