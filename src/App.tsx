@@ -35,7 +35,7 @@ const App: React.FC = () => {
           style={{ flex: 1, minWidth: 0 }}
         />
       </Header>
-      <Content style={{ padding: '0 48px' }}>
+      <Content style={{ padding: '0 48px', maxWidth: 1100, minWidth: 1100, marginLeft: "auto", marginRight: "auto"  }}>
         <Breadcrumb style={{ margin: '16px 0' }}>
           <Breadcrumb.Item>Home</Breadcrumb.Item>
           <Breadcrumb.Item>List</Breadcrumb.Item>
